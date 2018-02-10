@@ -1,0 +1,88 @@
+{
+    "full": [{
+            "code": "lorem",
+            "title": "Start lorem ipsum",
+            "state": "lo"
+        },
+        {
+            "code": "_nowrap",
+            "title": "No text wraps.",
+            "state": "nw"
+        }, 
+        {
+            "code": "_wrap",
+            "title": "Wrap (add a number to the end).",
+            "state": "wr"
+        }, 
+        {
+            "code": "_p",
+            "title": "How many paragraphs (add a number to the end).",
+            "state": "pa"
+        }, 
+        {
+            "code": "_s",
+            "title": "How many sentenses (add a number to the end).",
+            "state": "se"
+        }, 
+        {
+            "code": "_w",
+            "title": "How many words (add a number to the end).",
+            "state": "wo"
+        }, 
+        {
+            "code": "_short",
+            "title": "Short paragraphs and short sentenses.",
+            "state": "sh"
+        }, 
+        {
+            "code": "_medium",
+            "title": "Medium paragraphs and medium sentenses.",
+            "state": "me"
+        }, 
+        {
+            "code": "_long",
+            "title": "Long paragraphs and long sentenses.",
+            "state": "lo"
+        }, 
+        {
+            "code": "_vlong",
+            "title": "Very long paragraphs and very long sentenses.",
+            "state": "vl"
+        }, 
+        {
+            "code": "_link",
+            "title": "How many links that point to brackets.io (add a number to the end).",
+            "state": "li"
+        }, 
+        {
+            "code": "_ol",
+            "title": "How many list items in an ol (add a number to the end).",
+            "state": "ol"
+        }, 
+        {
+            "code": "_ul",
+            "title": "How many list items in an ol (add a number to the end).",
+            "state": "ul"
+        }, 
+        {
+            "code": "_orig",
+            "title": "How many original lorem paragraphs (add a number to the end).",
+            "state": "or"
+        }, 
+        {
+            "code": "_fortune",
+            "title": "Insert some fortunes (add a number to the end).",
+            "state": "fo"
+        }, 
+        {
+            "code": "_html",
+            "title": "Wraps text in <p></p>.",
+            "state": "ht"
+        }, 
+        {
+            "code": "_help",
+            "title": "Original Lorem Ipsum help.",
+            "state": "he"
+        }
+    ]
+}
