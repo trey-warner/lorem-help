@@ -20,9 +20,9 @@ To install this extension:
 
 Usage
 -----
-Choose _Edit > Lorem Ipsum Helper_ or click _Opt-Shift-J_
-Click the settings you want (be sure to write a number in the field if the setting tells you to)
-Click done!
+1. Choose _Edit > Lorem Ipsum Helper_ or click _Opt-Shift-J_
+2. Click the settings you want (be sure to write a number in the field if the setting tells you to)
+3. Click done!
 
 License
 -------
