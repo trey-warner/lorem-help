@@ -21,10 +21,9 @@ To install this extension:
 Usage
 -----
 1. Choose _Edit > Lorem Ipsum Helper_ or click _Opt-Shift-J_
-![Edit Menu](https://github.com/trey-warner/lorem-help/blob/master/Edit%20Menu.png?raw=true)
 2. Click the settings you want (be sure to write a number in the field if the setting tells you to)
 ![Popup](https://github.com/trey-warner/lorem-help/blob/master/Popup.png?raw=true)
-3. Click done!
+3. Click done!  
 ![Generated Text](https://github.com/trey-warner/lorem-help/blob/master/Generated%20Text.png?raw=true)
 4. Click your key binding for the lorem ipsum extension ([this page will show you how](https://github.com/lkcampbell/brackets-lorem-ipsum#custom-key-bindings))
 ![End Result](https://github.com/trey-warner/lorem-help/blob/master/End%20Result.png?raw=true)
