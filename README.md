@@ -1,6 +1,3 @@
-lorem-help
-==========
-
 Description
 -----------
 
