@@ -1,6 +1,6 @@
 # Welcome to the lorem-help wiki!
 
-[<< Back to the main page](./index)
+[<< Back to the main page](../index)
 
 ## Features
 
