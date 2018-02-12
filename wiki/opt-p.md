@@ -1,5 +1,5 @@
 ## The \_p Option
-[<< Back To Wiki](./)
+[<< Back To Wiki](./index)
 ### What it does
 **\_p[count]**: Inserts a certain number of random Lorem Ipsum paragraphs into the current document. The count option indicates how many paragraphs to insert. For example, lorem_p3 will insert three paragraphs into the document. If the count option is not provided, one paragraph will be inserted. If the type of Lorem Ipsum text is not specified, the extension will generate paragraphs by default.  
 ![\_p_location](https://github.com/trey-warner/lorem-help/blob/master/images/_p_location.png?raw=true)  
