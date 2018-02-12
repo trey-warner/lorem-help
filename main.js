@@ -15,7 +15,6 @@ define(function (require, exports, module) {
         helpsjson = JSON.parse(helpsfile),
         COMMAND_ID = 'full.loremhelp.insert',
         loremdia = $('<div>', {class: 'lorem-help-cont full'}),
-        Strings = require('strings');
 
     let menu, editMenu, loremdis;
 
@@ -24,18 +23,18 @@ define(function (require, exports, module) {
     /* Construction of popup dialog and events */
     loremdia.append(
         $('<ul>', {class: 'full'}).append(
-            helpsjson.full.map(char => {
-                return $('<li>', {'title': char.title}).append(
+            helpsjson.full.map(opt => {
+                return $('<li>', {'title': opt.title}).append(
                     $('<a>', {
                         href: '#',
-                        htmlCode: char.code,
-                        html: char.state
+                        code: opt.code,
+                        state: opt.state
                     })
                 );
             })
         ),
         $('<div>', {class: 'control'}).append(
-            $('<p>', {text: 'Click a Setting You WIsh To Use:'}),
+            $('<p>', {text: 'Click a Setting You Wish To Use:'}),
             loremdis = $('<input>', {
                 type: 'text',
                 class: 'codepreview',
@@ -50,7 +49,7 @@ define(function (require, exports, module) {
                     $(e).find('a').removeClass('selectedf');
                 });
             }),
-            $('<a>', {href: '#', class: 'btn', text: Strings.CANCEL}).on('click', function () {
+            $('<a>', {href: '#', class: 'btn', text: 'CANCEL'}).on('click', function () {
                  loremdia.hide();
             }),
             $('<a>', {href: '#', class: 'btn', text: 'Done'}).on('click', function () {
@@ -64,12 +63,12 @@ define(function (require, exports, module) {
     ).hide().appendTo('body').find('ul a').on('click', function () {
         $(this).toggleClass('selectedf');
         if ($(this).hasClass('selectedf')) {
-            if (this.attributes.htmlCode.value != 'lorem') {
+            if (this.attributes.code.value != 'lorem') {
                 if (loremdis.val().endsWith('_')) {
-                    loremdis.val(loremdis.val() + this.attributes.htmlCode.value.substring(1, this.attributes.htmlCode.value.length));
+                    loremdis.val(loremdis.val() + this.attributes.code.value.substring(1, this.attributes.code.value.length));
                     
                 } else {
-                    loremdis.val(loremdis.val() + this.attributes.htmlCode.value);
+                    loremdis.val(loremdis.val() + this.attributes.code.value);
                 }
                 
                 if ($(this).parent().attr('title').match(/\(add a number to the end\)/) != null) {
@@ -85,9 +84,9 @@ define(function (require, exports, module) {
         } else {
             var val = loremdis.val();
             val += '_';
-            val = val.replace(this.attributes.htmlCode.value, '^');
+            val = val.replace(this.attributes.code.value, '^');
             console.log(val.substr(0, 5));
-            if (this.attributes.htmlCode.value != 'lorem')
+            if (this.attributes.code.value != 'lorem')
                 val = val.replace(/\^.*?_/, '_');
             else
                 val = val.replace('^', '');
