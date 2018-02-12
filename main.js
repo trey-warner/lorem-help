@@ -28,7 +28,7 @@ define(function (require, exports, module) {
                     $('<a>', {
                         href: '#',
                         code: opt.code,
-                        state: opt.state
+                        html: opt.state,
                     })
                 );
             })
