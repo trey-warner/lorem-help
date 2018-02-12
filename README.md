@@ -23,7 +23,9 @@ Usage
 3. Click done!  
 ![Generated Text](https://github.com/trey-warner/lorem-help/blob/master/Generated%20Text.png?raw=true)
 4. Click your key binding for the lorem ipsum extension ([this page will show you how](https://github.com/lkcampbell/brackets-lorem-ipsum#custom-key-bindings))
-![End Result](https://github.com/trey-warner/lorem-help/blob/master/End%20Result.png?raw=true)
+![End Result](https://github.com/trey-warner/lorem-help/blob/master/End%20Result.png?raw=true)  
+  
+[Here is the wiki.](https://github.com/trey-warner/lorem-help/wiki)
 
 License
 -------
