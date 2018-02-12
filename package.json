@@ -3,7 +3,7 @@
     "title": "Help for the Lorem Ipsum extension",
     "description": "My first brackets extension. Self explanitory.",
     "homepage": "https://github.com/trey-warner/lorem-help",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Trey Warner (https://github.com/trey-warner/)",
     "license": "MIT",
     "categories": "snippets",
