@@ -78,7 +78,12 @@
             "code": "_html",
             "title": "Wraps text in <p></p>.",
             "state": "ht"
-        }, 
+        },
+        {
+            "code": "_orig",
+            "title": "Original (add a number to the end)",
+            "state": "or"
+        },
         {
             "code": "_help",
             "title": "Original Lorem Ipsum help.",
