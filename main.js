@@ -3,7 +3,7 @@
  */
 
 define(function (require, exports, module) {
-    'use strict';
+    //'use strict';
 
     const
         CommandManager = brackets.getModule('command/CommandManager'),
@@ -13,9 +13,9 @@ define(function (require, exports, module) {
         DocumentManager = brackets.getModule('document/DocumentManager'),
         helpsfile = require('text!loremattrs.json'),
         helpsjson = JSON.parse(helpsfile),
-        COMMAND_ID = 'full.loremhelp.insert',
-        loremdia = $('<div>', {class: 'lorem-help-cont full'}),
-
+        COMMAND_ID = 'loremhelp.insert',
+        loremdia = $('<div>', {class: 'lorem-help-cont full'});
+    
     let menu, editMenu, loremdis;
 
     ExtensionUtils.loadStyleSheet(module, 'style.css');
@@ -126,9 +126,10 @@ define(function (require, exports, module) {
 
     
     editMenu = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
+    console.log(editMenu);
     if (editMenu) {
         editMenu.addMenuDivider();
-        editMenu.addMenuItem(COMMAND_ID, 'Alt-Shift-J');
+        editMenu.addMenuItem(COMMAND_ID, 'Ctrl-Alt-Shift-L');
     }
 
 });
