@@ -49,7 +49,7 @@ define(function (require, exports, module) {
                     $(e).find('a').removeClass('selectedf');
                 });
             }),
-            $('<a>', {href: '#', class: 'btn', text: 'CANCEL'}).on('click', function () {
+            $('<a>', {href: '#', class: 'btn', text: 'Cancel'}).on('click', function () {
                  loremdia.hide();
             }),
             $('<a>', {href: '#', class: 'btn', text: 'Done'}).on('click', function () {
