@@ -6,7 +6,7 @@
 
 * When you click on an option that requires a number, it will automatically put you in the field
 
-## Options (from [brackets-lorem-ipsum](https://github.com/lkcampbell/brackets-lorem-ipsum))
+## Options (from [brackets-lorem-ipsum](https://github.com/lkcampbell/brackets-lorem-ipsum))  
 
 [**_p[count]:**](_p) Inserts a certain number of random Lorem Ipsum paragraphs into
 the current document.
