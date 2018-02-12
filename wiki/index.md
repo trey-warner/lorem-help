@@ -1,5 +1,7 @@
 # Welcome to the lorem-help wiki!
 
+[<< Back to the main page](./index)
+
 ## Features
 
 * When you click on an option that requires a number, it will automatically put you in the field
