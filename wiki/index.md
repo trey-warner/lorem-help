@@ -8,7 +8,7 @@
 
 ## Options (from [brackets-lorem-ipsum](https://github.com/lkcampbell/brackets-lorem-ipsum))  
  
-[**\_p[count]\:**](\_p) Inserts a certain number of random Lorem Ipsum paragraphs into the current document.
+[**\_p[count]\:**](opt-p) Inserts a certain number of random Lorem Ipsum paragraphs into the current document.
 
 **_s[count]:** Inserts a certain number of random Lorem Ipsum sentences into
 the current document. The `count` option indicates how many sentences to insert.
