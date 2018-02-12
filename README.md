@@ -25,7 +25,7 @@ Usage
 4. Click your key binding for the lorem ipsum extension ([this page will show you how](https://github.com/lkcampbell/brackets-lorem-ipsum#custom-key-bindings))
 ![End Result](https://github.com/trey-warner/lorem-help/blob/master/images/End%20Result.png?raw=true)  
   
-_If you are looking at this inside my repo, not my github pages, do not click this link._
+_If you are looking at this inside my repo, not my github pages, do not click this link._  
 [Here is the wiki.](https://trey-warner.github.io/lorem-help/wiki)
 
 License
