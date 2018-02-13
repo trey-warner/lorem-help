@@ -1,3 +1,5 @@
+[\<\< Back to blog](https://trey-warner.github.io/brackets/extension/brackets-extension/lorem-ipsum/2018/02/12/lorem-ipsum-brackets-extension.html)
+
 Description
 -----------
 
@@ -25,6 +27,8 @@ Usage
 4. Click your key binding for the lorem ipsum extension ([this page will show you how](https://github.com/lkcampbell/brackets-lorem-ipsum#custom-key-bindings))
 ![End Result](https://github.com/trey-warner/lorem-help/blob/master/images/End%20Result.png?raw=true)  
   
+[Here is the wiki.](https://trey-warner.github.io/lorem-help/wiki)
+
 License
 -------
 MIT-licensed
